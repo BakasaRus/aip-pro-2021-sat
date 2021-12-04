@@ -1,5 +1,7 @@
 class Account:
-    def __init__(self, amount):
+    __amount: int
+
+    def __init__(self, amount: int) -> None:
         self.__amount = amount
 
     def get_amount(self):
