@@ -1,8 +1,12 @@
 p {
-    font-family: 'MP Manga Font Bold', Arial, sans-serif;
+    font-family: 'Noto Serif', serif;
     padding: 16px;
     border: 8px green solid;
     margin: 48px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', cursive;
 }
 
 .danger {
