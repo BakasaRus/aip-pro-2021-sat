@@ -1,8 +1,27 @@
 p {
-    color: white;
-    background-color: darkred;
     font-family: 'MP Manga Font Bold', Arial, sans-serif;
     padding: 16px;
     border: 8px green solid;
     margin: 48px;
+}
+
+.danger {
+    color: white;
+    background-color: darkred;
+}
+
+#python {
+    color: darkgreen;
+}
+
+section h2 {
+    text-decoration: underline;
+}
+
+section > h2 {
+    font-style: italic;
+}
+
+h2 + p {
+    border-color: blueviolet;
 }
