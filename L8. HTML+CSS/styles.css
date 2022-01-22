@@ -25,3 +25,7 @@ section > h2 {
 h2 + p {
     border-color: blueviolet;
 }
+
+#python + section div h2 {
+    color: olive;
+}
